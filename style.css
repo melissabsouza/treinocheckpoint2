@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #171717;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #E91C5D ;
+    width: 100%;
+    height: 42px;
+    margin-bottom: 71px;
+}
+
+h1{
+    color: white;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 42px */
+    letter-spacing: -0.616px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #E91C5D ;
+    width: 100%;
+    height: 42px;
+    margin-top: 71px;
+}
+#conteudo{
+    width: 1036px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.azul1{
+    background-color: #487BDE;
+}
+
+.roxo{
+    background-color: #9328FE;
+}
+
+.vermelho{
+    background-color: #FF4343 ;
+}
+
+.laranjaClaro{
+    background-color: #FF7043;
+
+}
+
+.laranjaEscuro{
+    background-color: #FF8A00 ;
+}
+
+.azul2{
+    background-color: #1B99C1;
+}
+
+.azul3{
+    background-color: #2D68DA
+}
+
+.roxo2{
+    background-color: #6448FF;
+}
+
+.verde{
+    background-color: #14AE5C ;
+}
+
+.cinza{
+    background-color: #699797;
+}
+
+.roxo3{
+    background-color: #976995;
+}
+.caixa{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    align-items: center;
+    justify-items: center;
+}
+
+.grupo{
+    display: flex;
+    gap: 8px;
+}
+
+.tamanhocaixaletra{
+    display: flex;
+    flex-direction: column;
+    height: 33px;
+    margin: 0;
+    align-items: center;
+}
+
+.numero{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 18px */
+    letter-spacing: -0.264px;
+    margin-right: 13px;
+    margin-top: 2px;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.elemento{
+    height: 12px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 36px */
+    letter-spacing: -0.528px;
+    margin: 2px
+    
+}
+
+#linha1{
+    display: flex;
+    justify-content: space-between;
+}
+
+#linha2{
+    display: flex;
+    justify-content: space-between;
+}
+
+#linha3{
+    display: flex;
+    justify-content: space-between;
+}
+
+#linha4{
+    display: flex;
+    gap: 8px;
+}
+
+#linha5{
+    display: flex;
+    gap: 8px;
+}
+
+#linha6{
+    display: flex;
+    gap: 8px;
+}
+
+#linha7{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 72px;
+}
+
+#linha8{
+    display: flex;
+    gap: 8px;
+    justify-content: end;
+}
+
+#linha9{
+    display: flex;
+    gap: 8px;
+    justify-content: end;
+}
